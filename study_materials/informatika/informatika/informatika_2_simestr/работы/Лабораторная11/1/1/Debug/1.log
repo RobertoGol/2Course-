@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+  1.cpp
+E:\informatika\informatika_2_simestr\работы\Лабораторная11\1\1\1.cpp(19): error C4700: использована неинициализированная локальная переменная "x"

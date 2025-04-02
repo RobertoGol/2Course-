@@ -1,0 +1,7 @@
+G:
+cd Github\student_files
+git status
+git add .
+git commit -m "comment"
+git push
+

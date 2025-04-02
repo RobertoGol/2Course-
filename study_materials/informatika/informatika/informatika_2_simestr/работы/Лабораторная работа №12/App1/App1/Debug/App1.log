@@ -1,0 +1,14 @@
+﻿Сборка начата 25.04.2023 16:53:04.
+     1>Проект "F:\informatika\informatika_2_simestr\работы\Лабораторная работа №12\App1\App1\App1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\App1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt App1.cpp
+         App1.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\informatika\informatika_2_simestr\работы\Лабораторная работа №12\App1\Debug\App1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\informatika\informatika_2_simestr\работы\Лабораторная работа №12\App1\Debug\App1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\informatika\informatika_2_simestr\работы\Лабораторная работа №12\App1\Debug\App1.lib" /MACHINE:X86 Debug\App1.obj
+         Debug\stdafx.obj
+         App1.vcxproj -> F:\informatika\informatika_2_simestr\работы\Лабораторная работа №12\App1\Debug\App1.exe
+     1>Сборка проекта "F:\informatika\informatika_2_simestr\работы\Лабораторная работа №12\App1\App1\App1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.85

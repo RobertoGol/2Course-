@@ -1,0 +1,2 @@
+e:\mingw64\bin\gcc
+\gcc

@@ -1,0 +1,61 @@
+This file was created by QTTabBar for debugging. Sorry for inconvenients. You can delete this without any harm.
+--------------
+
+2024/05/18 17:20:03.7563
+OS ver: 10.0.19045.0
+QT ver: 2048.0Beta 2
+System.ObjectDisposedException: Доступ к ликвидированному объекту невозможен.
+Имя объекта: "PreviewTip".
+   в System.Windows.Forms.Control.CreateHandle()
+   в System.Windows.Forms.Form.CreateHandle()
+   в System.Windows.Forms.Control.get_Handle()
+   в QTTabBarLib.PreviewTip.previewTip_SizeChanged(Object sender, EventArgs e)
+   в System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   в System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   в System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height)
+   в System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   в System.Windows.Forms.Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   в System.Windows.Forms.Control.SetBounds(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   в System.Windows.Forms.Control.set_Bounds(Rectangle value)
+   в QTTabBarLib.PreviewTip.ShowMe(Rectangle rct, IPreviewContent content)
+   в QTTabBarLib.PreviewTip.ShowForInfoBucket(PreviewInfoBucket infoBucket, Boolean fNoCloseWindow)
+   в QTTabBarLib.PreviewTip.Show(PreviewCommandBucket pb)
+   в QTTabBarLib.PreviewTip.InvokePreviewCommand(PreviewAction action, PreviewCommandBucket pb)
+--------------
+
+2024/05/18 17:20:11.6530
+OS ver: 10.0.19045.0
+QT ver: 2048.0Beta 2
+System.ObjectDisposedException: Доступ к ликвидированному объекту невозможен.
+Имя объекта: "PreviewTip".
+   в System.Windows.Forms.Control.CreateHandle()
+   в System.Windows.Forms.Form.CreateHandle()
+   в System.Windows.Forms.Control.get_Handle()
+   в QTTabBarLib.PreviewTip.ShowForInfoBucket(PreviewInfoBucket infoBucket, Boolean fNoCloseWindow)
+   в QTTabBarLib.PreviewTip.Show(PreviewCommandBucket pb)
+   в QTTabBarLib.PreviewTip.InvokePreviewCommand(PreviewAction action, PreviewCommandBucket pb)
+--------------
+
+2024/05/18 17:21:36.8070
+OS ver: 10.0.19045.0
+QT ver: 2048.0Beta 2
+System.ObjectDisposedException: Доступ к ликвидированному объекту невозможен.
+Имя объекта: "PreviewTip".
+   в System.Windows.Forms.Control.CreateHandle()
+   в System.Windows.Forms.Form.CreateHandle()
+   в System.Windows.Forms.Control.get_Handle()
+   в QTTabBarLib.PreviewTip.ShowForInfoBucket(PreviewInfoBucket infoBucket, Boolean fNoCloseWindow)
+   в QTTabBarLib.PreviewTip.Show(PreviewCommandBucket pb)
+   в QTTabBarLib.PreviewTip.InvokePreviewCommand(PreviewAction action, PreviewCommandBucket pb)
+--------------
+
+2024/05/31 06:15:21.1068
+OS ver: 10.0.19045.0
+QT ver: 2048.0Beta 2
+System.ArgumentOutOfRangeException: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+   в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в QTTabBarLib.QTabControl.DrawTab(Graphics g, Rectangle itemRct, Int32 index, Boolean fHot, Boolean fVisualStyle)
+   в QTTabBarLib.QTabControl.OnPaint(PaintEventArgs e)
+--------------
+

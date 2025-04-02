@@ -1,0 +1,16 @@
+This file was created by QTTabBar for debugging. Sorry for inconvenients. You can delete this without any harm.
+--------------
+
+2024/04/20 14:20:05.9401
+OS ver: 10.0.19045.0
+QT ver: 2048.0Beta 2
+System.ObjectDisposedException: Доступ к ликвидированному объекту невозможен.
+Имя объекта: "PreviewTip".
+   в System.Windows.Forms.Control.CreateHandle()
+   в System.Windows.Forms.Form.CreateHandle()
+   в System.Windows.Forms.Control.get_Handle()
+   в QTTabBarLib.PreviewTip.ShowForInfoBucket(PreviewInfoBucket infoBucket, Boolean fNoCloseWindow)
+   в QTTabBarLib.PreviewTip.Show(PreviewCommandBucket pb)
+   в QTTabBarLib.PreviewTip.InvokePreviewCommand(PreviewAction action, PreviewCommandBucket pb)
+--------------
+

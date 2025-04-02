@@ -1,0 +1,10 @@
+{
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Monokai"
+}

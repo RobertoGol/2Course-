@@ -1,0 +1,1000 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>Лабораторная работа 1</title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{margin:0cm;
+	text-align:justify;
+	line-height:117%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+h2
+	{margin:0cm;
+	text-align:center;
+	line-height:117%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0cm;
+	text-align:justify;
+	line-height:117%;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin:0cm;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{margin:0cm;
+	text-align:justify;
+	text-indent:35.4pt;
+	line-height:117%;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 2.0cm 76.55pt 2.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=RU style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='line-height:117%'><i><span style='font-size:14.0pt;
+line-height:117%'>&nbsp;</span></i></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><b><span
+style='font-size:14.0pt;line-height:117%'>ИССЛЕДОВАНИЕ  РАБОЧЕГО  ЗАТУХАНИЯ  </span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><b><span
+style='font-size:14.0pt;line-height:117%'>ЧЕТЫРЕХПОЛЮСНИКА</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><b><span
+style='font-size:12.0pt;line-height:117%'>&nbsp;</span></b></p>
+
+<h1>          Ц е л ь   р а б о т ы <span style='font-family:Symbol'>-</span>
+исследовать зависимость потерь электрической энергии в четырехполюснике от
+сопротивления нагрузки.</h1>
+
+<p class=MsoNormal>               Все расчеты выполняются при следующих данных:</p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=94 valign=top style='width:70.35pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal>Тип включения </p>
+  </td>
+  <td width=94 valign=top style='width:70.35pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>F,</span>Гц</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Характер </p>
+  <p class=MsoNormal align=center style='text-align:center'>Сопротивления</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>U,</span>В</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>R</span>э<span
+  lang=EN-US>,</span>Ом</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>C</span>э<span
+  lang=EN-US>,</span>мкФ</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>Z</span>вх<span
+  lang=EN-US>,</span>ОМ</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=94 valign=top style='width:70.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>ХХПР</p>
+  </td>
+  <td width=94 valign=top style='width:70.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4000</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>ИНД</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0,00054</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>166</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0,321</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=94 valign=top style='width:70.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>КЗПР</p>
+  </td>
+  <td width=94 valign=top style='width:70.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4000</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>ЕИК</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0,00000</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>400</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0,2</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=94 valign=top style='width:70.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>ХХОБ</p>
+  </td>
+  <td width=94 valign=top style='width:70.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4000</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>ИНД</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0,00000</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>500</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0,4</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=94 valign=top style='width:70.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>КЗОБ</p>
+  </td>
+  <td width=94 valign=top style='width:70.35pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4000</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>ЕМК</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>0,00030</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>456</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4,8</p>
+  </td>
+  <td width=94 valign=top style='width:70.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><span
+style='font-size:12.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><b><span
+style='font-size:14.0pt;line-height:117%'>4.1. Порядок выполнения работы</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><span
+style='font-size:12.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>1) Изучить рабочие
+параметры ЧП </span><span style='font-size:14.0pt;line-height:117%;font-family:
+Symbol'>[</span><span style='font-size:14.0pt;line-height:117%'>1, 2</span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>]</span><span
+style='font-size:14.0pt;line-height:117%'>.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>2) Рассчитать рабочее
+затухание ЧП, используя характеристические параметры, полученные при выполнении
+лабораторной работы 3. Сопротивление генератора принять равным 600 Ом,
+сопротивление нагрузки  </span><span lang=EN-US style='font-size:14.0pt;
+line-height:117%'>Z</span><sub><span style='font-size:14.0pt;line-height:117%'>Н</span></sub><span
+style='font-size:14.0pt;line-height:117%'> = К</span><span lang=EN-US
+style='font-size:14.0pt;line-height:117%'>Z</span><sub><span style='font-size:
+14.0pt;line-height:117%'>С</span></sub><span style='font-size:14.0pt;
+line-height:117%'>. Вариант коэффициентов К указывается преподавателем:</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>а) 0,01; 0,21; 0,75; 1;
+1,4; 10; 100;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>б) 0,015; 0,12; 0,62; 1;
+1,5; 30; 150;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>в) 0,018; 0,25; 0,51; 1;
+2; 50; 120;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>г) 0,012; 0,15; 0,68; 1;
+1,7; 20; 130.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>3) Измерить   рабочее 
+затухание  исследуемого  ЧП  методом  уровней.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>4) Обработать результаты
+измерений и сопоставить их с теоретическими данными, построив кривые на одном
+графике (на миллиметровой бумаге).</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>5) Ответить на
+контрольные вопросы.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'> </span></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:35.45pt;
+line-height:117%'><b><span style='font-size:14.0pt;line-height:117%'>4.2.
+Краткие сведения из теории</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:35.4pt;
+line-height:117%'><b><span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></b></p>
+
+<p class=MsoBodyTextIndent3 style='text-indent:35.45pt'>Если на входе ЧП
+подключена согласованная нагрузка, то условия передачи сигналов определяются
+его собственными параметрами: характеристическими сопротивлениями,
+характеристической постоянной передачи (см. лабораторную работу 3). Эти
+параметры, хотя и полностью характеризуют данный ЧП как некоторую систему для
+передачи мощности, в общем не являются достаточно удобными измерителями в
+эксплуатационных условиях. Это объясняется тем, что условия передачи мощности
+через ЧП не определяются только собственными его параметрами, но в значительной
+степени зависят также от тех условий, в которых этот ЧП используется, т. е. от
+параметров генератора и нагрузки.</p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>Эффект передачи через
+один и тот же ЧП может существенно изменяться, если изменяются характеристики
+передатчика и приемника, подключаемых к четырехполюснику.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>В реальных условиях не
+удается добиться согласованных включений, так как характеристическое
+сопротивление ЧП часто имеет сложную частотную зависимость (например, у
+фильтров, линий связи и др.).</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>В случае несогласованности
+в точках соединения возникают отражения, влияние которых учитывается введением
+понятия о рабочем затухании. Например, если сопротивление приемника </span><span
+lang=EN-US style='font-size:14.0pt;line-height:117%'>Z</span><sub><span
+style='font-size:14.0pt;line-height:117%'>Н  </span></sub><span
+style='font-size:14.0pt;line-height:117%'>не равно характеристическому сопротивлению
+ЧП  </span><span lang=EN-US style='font-size:14.0pt;line-height:117%'>Z</span><sub><span
+style='font-size:14.0pt;line-height:117%'>С2</span></sub><span
+style='font-size:14.0pt;line-height:117%'>, то не вся мощность, подошедшая к
+приемному концу, поступает в нагрузку. Часть этой мощности, отражаясь от
+нагрузки, возвращается обратно к генератору, частично теряясь в элементах ЧП.
+Для отраженной волны нагрузкой является сопротивление генератора, подключенного
+к передающему концу. Если сопротивление генератора не равно характеристическому
+сопротивлению </span><span lang=EN-US style='font-size:14.0pt;line-height:117%'>Z</span><sub><span
+style='font-size:14.0pt;line-height:117%'>С1</span></sub><span
+style='font-size:14.0pt;line-height:117%'>, то происходит частичное отражение
+энергии, причем новая отраженная волна будет распространяться от генератора к
+приемнику. Многократное отражение энергии при несогласованных нагрузках на
+обоих концах приводит к дополнительному рассеиванию энергии, ухудшению качества
+передачи и появлению амплитудно-частотных и фазочастотных искажений сигнала..</span></p>
+
+<p class=MsoBodyTextIndent3>Для улучшения условий передачи сигналов (уменьшения
+искажений и потерь электрической энергии) необходимо обеспечить полную
+согласованность  сопротивления  приемника  с  характеристическим 
+сопротивлением ЧП, т. е. равенство их как по модулю, так и по углу.</p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'>
+
+<table cellpadding=0 cellspacing=0 align=left>
+ <tr>
+  <td width=55 height=485></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=595 height=150
+  src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image001.gif"></td>
+ </tr>
+</table>
+
+<span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<br clear=ALL>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>                    
+а                                                                    б</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:35.4pt;
+line-height:117%'><span style='font-size:14.0pt;line-height:117%'>Рис. 4.1.
+Определение рабочего затухания</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;text-indent:35.45pt'><span
+style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent3>Рабочее затухание позволяетоценить тракт передачи в
+рабочих условиях. Оно включает в себя как потери мощности в самом ЧП, так и по
+концам его, возникающие вследствие несогласованности сопротивлений приемных и
+передающих устройств с характеристическими сопротивлениями ЧП. Рабочее
+затухание представляет собой логарифмическую меру отношения двух мощностей, дБ:</p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>                                           
+<sub><img width=134 height=62
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image002.gif"></sub>,  </span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>                                           
+(4.1)</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>где <sub><img width=22 height=30
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image003.gif"></sub> </span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>-</span><span
+style='font-size:14.0pt;line-height:117%'> полная мощность, которую получает
+приемник от генератора при непосредственном подключении  и при равенстве
+сопротивлений генератора и приемника;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        <sub><img width=22 height=28
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image004.gif"></sub> </span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>-</span><span
+style='font-size:14.0pt;line-height:117%'> полная мощность, которую получает от
+того же  генератора  приемник с произвольным сопротивлением, включенном на
+выходе ЧП (рис. 4.1).</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>          Если обозначить (как  на
+рис. 4.1, а) Е – Э.Д.С. генератора, </span><span lang=EN-US style='font-size:
+14.0pt;line-height:117%'>Z</span><sub><span style='font-size:14.0pt;line-height:
+117%'>Г </span></sub><span style='font-size:14.0pt;line-height:117%'>– его внутреннее
+сопротивление, то   </span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:12.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:180.0pt;text-align:justify;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>    <sub><img width=108
+height=58 src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image005.gif"></sub>.                                
+                 (4.2)</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>          Мощность, поглощаемая
+приемником </span><span lang=EN-US style='font-size:14.0pt;line-height:117%'>Z</span><sub><span
+style='font-size:14.0pt;line-height:117%'>Н</span></sub><span style='font-size:
+14.0pt;line-height:117%'>, включенном на выходе ЧП (рис. 4.1, б),</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:8.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>                                                            
+<sub><img width=93 height=58
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image006.gif"></sub>.                                              
+(4.3)</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:12.0pt'><span
+style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>          Подставляя значения
+мощностей  <sub><img width=82 height=36
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image007.gif"></sub> в формулу (4.1), 
+после некоторых преобразований  можно получить выражение рабочего затухания ЧП
+через его характеристические  параметры и нагрузочные сопротивления, дБ:</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>                  <sub><img
+width=459 height=110 src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image008.gif"></sub>             (4.4)</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>или</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.4pt;line-height:
+117%'><span style='font-size:14.0pt;line-height:117%'>                      <sub><img
+width=258 height=29 src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image009.gif"></sub>,                                        
+(4.5)</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:35.45pt;line-height:
+12.0pt'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>где  </span><span lang=EN-US
+style='font-size:14.0pt;line-height:117%'>Z</span><sub><span style='font-size:
+14.0pt;line-height:117%'>Г</span></sub><span style='font-size:14.0pt;
+line-height:117%'> – сопротивление генератора, Ом;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        </span><span lang=EN-US
+style='font-size:14.0pt;line-height:117%'>Z</span><sub><span style='font-size:
+14.0pt;line-height:117%'>С1</span></sub><span style='font-size:14.0pt;
+line-height:117%'>, </span><span lang=EN-US style='font-size:14.0pt;line-height:
+117%'>Z</span><sub><span style='font-size:14.0pt;line-height:117%'>С2</span></sub><span
+style='font-size:14.0pt;line-height:117%'> – комплексные характеристические
+сопротивления ЧП, Ом;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        </span><span lang=EN-US
+style='font-size:14.0pt;line-height:117%'>Z</span><sub><span style='font-size:
+14.0pt;line-height:117%'>Н</span></sub><span style='font-size:14.0pt;
+line-height:117%'> – сопротивление нагрузки, Ом;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        а<sub>С</sub> – собственное
+затухание ЧП, дБ;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        </span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>j</span><sub><span
+style='font-size:14.0pt;line-height:117%'>С</span></sub><span style='font-size:
+14.0pt;line-height:117%'> – характеристическая фазовая постоянная передачи,
+град;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>       <sub><img width=150 height=55
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image010.gif"></sub> </span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>-</span><span
+style='font-size:14.0pt;line-height:117%'> коэффициент отражения на передающем
+конце цепи;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>       <sub><img width=159 height=55
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image011.gif"></sub></span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>-</span><span
+style='font-size:14.0pt;line-height:117%'> коэффициент отражения на приемном
+конце цепи;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        а<sub>ОГ</sub> – затухание,
+обусловленное несогласованностью сопротивления генератора с характеристическим
+сопротивлением ЧП, дБ;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        а<sub>ОН </sub></span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>-</span><span
+style='font-size:14.0pt;line-height:117%'> затухание, обусловленное
+несогласованностью характеристического сопротивления нагрузки, дБ;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>        а<sub>ВЗ  </sub></span><span
+style='font-size:14.0pt;line-height:117%;font-family:Symbol'>-</span><span
+style='font-size:14.0pt;line-height:117%'> затухание, обусловленное
+взаимодействием отраженных волн, дБ.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>          Величина <sub><img
+width=326 height=36 src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image012.gif"></sub> зависит
+от соотношений  </span><span lang=EN-US style='font-size:14.0pt;line-height:
+117%'>Z</span><sub><span style='font-size:14.0pt;line-height:117%'>Г</span></sub><span
+style='font-size:14.0pt;line-height:117%'>/</span><span lang=EN-US
+style='font-size:14.0pt;line-height:117%'>Z</span><sub><span style='font-size:
+14.0pt;line-height:117%'>С1</span></sub><span style='font-size:14.0pt;
+line-height:117%'>,  </span><span lang=EN-US style='font-size:14.0pt;
+line-height:117%'>Z</span><sub><span style='font-size:14.0pt;line-height:117%'>Н</span></sub><span
+style='font-size:14.0pt;line-height:117%'>/</span><span lang=EN-US
+style='font-size:14.0pt;line-height:117%'>Z</span><sub><span style='font-size:
+14.0pt;line-height:117%'>С2</span></sub><span style='font-size:14.0pt;
+line-height:117%'> и собственного затухания ЧП.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>          При       <sub><img
+width=254 height=62 src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image013.gif"></sub>   числовое   
+значение  </span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'><sub><img width=292 height=68
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image014.gif"></sub>.  В этих случаях 
+а<sub>ВЗ</sub> на величину а<sub>Р</sub> влияет незначительно  и  им  можно 
+пренебречь, рассчитывая в формуле (4.4) всего три члена.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>          В остальных случаях, когда 
+<sub><img width=170 height=62
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image015.gif"></sub>,  необходимо учитывать
+все составляющие рабочего затухания.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>          На основании формулы (4.4)
+и понятия абсолютного уровня можно получить также выражение, позволяющее
+определять величину рабочего затухания при экспериментальных исследованиях:</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:117%'><span style='font-size:14.0pt;
+line-height:117%'><sub><img width=598 height=62
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image016.gif"></sub> (4.6)</span></p>
+
+<p class=MsoNormal style='margin-right:-.05pt;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>или</span></p>
+
+<p class=MsoNormal style='line-height:117%'><span style='font-size:14.0pt;
+line-height:117%'><sub><img width=594 height=62
+src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image017.gif"></sub>, (4.7)</span></p>
+
+<p class=MsoNormal style='line-height:12.0pt'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:117%'><span style='font-size:14.0pt;
+line-height:117%'>где Р<sub>Е/2 </sub> </span><span style='font-size:14.0pt;
+line-height:117%;font-family:Symbol'>-</span><span style='font-size:14.0pt;
+line-height:117%'> абсолютный уровень половины Э.Д.С. генератора;</span></p>
+
+<p class=MsoNormal style='line-height:117%'><span style='font-size:14.0pt;
+line-height:117%'>      Р</span><sub><span lang=EN-US style='font-size:14.0pt;
+line-height:117%'>U</span></sub><span style='font-size:14.0pt;line-height:117%'>
+– абсолютный  уровень  напряжения на нагрузке, включенной на выходе
+четырехполюсника.</span></p>
+
+<p class=MsoNormal style='line-height:117%'><span style='font-size:14.0pt;
+line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><b><span
+style='font-size:14.0pt;line-height:117%'>4.3. Измерение рабочего затухания
+четырехполюсника</span></b></p>
+
+<p class=MsoNormal style='line-height:12.0pt'><span style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:117%'><span style='font-size:14.0pt;
+line-height:117%'>          В работе используются приборы: генератор звуковых
+частот; указатель (измеритель) уровня; исследуемый ЧП; магазины сопротивлений,
+конденсаторов, индуктивностей.</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>4.3.1. Методические указания к
+выполнению работы</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<h1>          1) На лабораторном макете собрать схему измерения рабочего
+затухания, приведенную на рис. 4.2.</h1>
+
+<p class=MsoBodyText3 style='line-height:117%'>          </p>
+
+<p class=MsoBodyText3 style='text-indent:36.0pt;line-height:18.0pt'>Присоединить
+исследуемый ЧП (тот же самый, что и в лабораторной работе 3) к генератору и
+нагрузке.</p>
+
+<p class=MsoBodyText3 style='text-indent:36.0pt;line-height:18.0pt'>Включить
+питание приборов, задать на выходе генератора необходимую частоту (такую же,
+как и при выполнении лабораторной работы 3), выходное напряжение 5 – 10 В,
+выходное сопротивление генератора – 600 Ом.</p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'>
+
+<table cellpadding=0 cellspacing=0 align=left>
+ <tr>
+  <td width=61 height=1310></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=531 height=202
+  src="Методичка%20по%20ТЛЭЦ-1%20(2)_files/image018.gif"></td>
+ </tr>
+</table>
+
+<span style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<br clear=ALL>
+
+<h2>Рис. 4.2. Схема измерения рабочего затухания</h2>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:18.0pt'><span
+style='font-size:14.0pt'>&nbsp;</span></p>
+
+<p class=MsoBodyText2 style='line-height:18.0pt'>          2) Измерить уровень
+половины Э.Д.С. генератора Р<sub>Е</sub>/2, для чего необходимо соединить
+непосредственно генератор и указатель уровня  (рис. 4.1, а) и выполнить условие:
+Z<sub>Г</sub> = Z<sub>ВХ</sub> <sub>УУ</sub> = 600 Ом.</p>
+
+<p class=MsoBodyText2 style='line-height:18.0pt'>          Величину Р<sub>Е</sub>/2
+целесообразно поддерживать постоянной в течение всей работы с помощью
+регулятора выходного напряжения. При отсутствии прибора с Z<sub>Г</sub> = Z<sub>ВХ</sub>
+<sub>УУ  </sub>можно измерять уровень полной Э.Д.С. генератора Р<sub>Е</sub>,
+подключая к его разомкнутым зажимам высокоомный вход указателя и вводя в
+формулу (4.7) поправку на 20 <span lang=EN-US>lg</span>2 = 6,07 дБ.</p>
+
+<p class=MsoBodyText2 style='line-height:18.0pt'>          3) Измерить уровень
+напряжения на нагрузке, включенной на выходе четырехполюсника. Значения
+сопротивления нагрузки задаются с помощью магазина сопротивлений в соответствии
+с вариантом выполненного теоретического расчета. Измерительный прибор
+подключают к нагрузке высокоомным входом.</p>
+
+<p class=MsoBodyText2 style='line-height:18.0pt'>          4) Обработать
+экспериментальные данные по формуле (4.7) и сравнить их с теоретическим
+расчетом, выполненным по формуле (4.4), оформив результаты в виде табл. 4.1, 
+4.2  и иллюстраций.</p>
+
+<p class=MsoBodyText2 style='line-height:10.0pt'>&nbsp;</p>
+
+<p class=MsoBodyText2 align=right style='text-align:right'><span
+style='letter-spacing:2.5pt'>Таблица</span>  4.1</p>
+
+<p class=MsoBodyText2 align=right style='text-align:right'><span
+style='font-size:8.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoBodyText2 align=center style='text-align:center'>Теоретическая
+зависимость рабочего затухания</p>
+
+<p class=MsoBodyText2 align=center style='text-align:center'>и его составляющих
+от сопротивления нагрузки</p>
+
+<p class=MsoBodyText2 align=center style='text-align:center;line-height:8.0pt'>&nbsp;</p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'><span
+  lang=EN-US>Z</span><sub>Н</sub>, Ом</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>а<sub>С</sub>,
+  дБ</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>а<sub>ОГ</sub>,
+  дБ</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>а<sub>ОН</sub>,
+  дБ</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>а<sub>ВЗ</sub>,
+  дБ</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>а<sub>Р</sub>,
+  дБ</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoBodyText2 align=right style='text-align:right'><span
+style='letter-spacing:2.5pt'>Таблица</span>  4.2</p>
+
+<p class=MsoBodyText2 align=right style='text-align:right;line-height:12.0pt'>&nbsp;</p>
+
+<p class=MsoBodyText2 align=center style='text-align:center'>Результаты
+экспериментальных исследований</p>
+
+<p class=MsoBodyText2 align=center style='text-align:center'>рабочего затухания</p>
+
+<p class=MsoBodyText2 align=center style='text-align:center;line-height:12.0pt'>&nbsp;</p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'><span
+  lang=EN-US>Z</span><sub>Н</sub>, Ом</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>Р<sub>Е</sub>/2,
+  дБ</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>Р<sub><span
+  lang=EN-US>U</span></sub>, дБ</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'><span
+  lang=EN-US>R<sub>Г</sub>/Z<sub>Н</sub></span></p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'><span
+  lang=EN-US>10 lg </span><span style='font-family:Symbol'>|</span><span
+  lang=EN-US>R<sub>Г</sub>/Z<sub>Н</sub></span><span lang=EN-US
+  style='font-family:Symbol'>|</span></p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>а<sub>Р</sub>,
+  дБ</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=109 valign=top style='width:82.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=109 valign=top style='width:82.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoBodyText2 align=center style='text-align:center'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:117%'><b><span
+style='font-size:14.0pt;line-height:117%'>4.4. Содержание отчета</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoBodyText2>          1) Основные расчетные формулы и схемы</p>
+
+<p class=MsoBodyText2>          2) Результаты измерений и расчетов в виде
+таблиц.</p>
+
+<p class=MsoBodyText2>          3) Теоретическая и экспериментальная
+зависимости рабочего затухания ЧП от сопротивления нагрузки (построить на
+миллиметровой бумаге).</p>
+
+<p class=MsoBodyText2>          4) Ответы на контрольные вопросы.</p>
+
+<p class=MsoBodyText2>&nbsp;</p>
+
+<p class=MsoBodyText2 align=center style='text-align:center'><b>4.5.
+Контрольные вопросы</b></p>
+
+<p class=MsoBodyText2>&nbsp;</p>
+
+<p class=MsoBodyText2>          1) Как изменится выражение (4.6), если
+согласовать сопротивление генератора с характеристическим сопротивлением ЧП?</p>
+
+<p class=MsoBodyText2>          2) В каких пределах изменяются коэффициенты
+отражения?</p>
+
+<p class=MsoBodyText2>          3) Как отличается рабочее затухание ЧП от
+собственного и вносимого?</p>
+
+<p class=MsoBodyText2>          4) Какие существуют методы уменьшения рабочего
+затухания?</p>
+
+<p class=MsoBodyText2>          5) Какие устройства применяются для
+согласования ЧП с генератором и нагрузкой?</p>
+
+<p class=MsoBodyText2>          6) В каких  случаях  рабочее  затухание  ЧП 
+равно  его  повторному затуханию?</p>
+
+<h2>&nbsp;</h2>
+
+<h2>&nbsp;</h2>
+
+<h2>Библиографический список</h2>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+<p class=MsoBodyText2>          1. К а л л е р  М. Я. и др. Теория линейных
+электрических цепей железнодорожной автоматики, телемеханики и связи. М.:
+Транспорт, 1987. 399 с.</p>
+
+<p class=MsoBodyText2>          2. Л о с е в  А. К.  Теория линейных
+электрических цепей. М.: Высшая школа, 1987. 512 с.</p>
+
+<p class=MsoBodyText2>          3. Б е л е ц к и й  А. Ф. Основы теории
+линейных электрических цепей. М.: Радио и связь, 1986.. 400 с.</p>
+
+<p class=MsoNormal style='text-align:justify;line-height:117%'><span
+style='font-size:14.0pt;line-height:117%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
